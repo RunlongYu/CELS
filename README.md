@@ -25,7 +25,7 @@ criteo
 avazu
 └── processed
 
-fintech
+huawei
 ├── bucket
 ├── feature_map
 └── processed
