@@ -26,8 +26,6 @@ avazu
 └── processed
 
 huawei
-├── bucket
-├── feature_map
 └── processed
 ```
 
