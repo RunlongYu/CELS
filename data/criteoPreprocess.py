@@ -22,15 +22,14 @@ class CriteoProcessor(object):
         self.processed_data_dir = os.path.join(self.data_dir, 'processed')
         self.bucket_file_dir = os.path.join(self.data_dir, 'bucket')
         self.feature_map_file_dir = os.path.join(self.data_dir, 'feature_map')
-        self.feature_map_file_path = os.path.join(self.feature_map_file_dir, 'feature_map.pkl')
-        self.sparse_feature_bucket_file_path = os.path.join(self.bucket_file_dir, 'sparse_feature_bucket.pkl')
-        self.dense_feature_bucket_file_path = os.path.join(self.bucket_file_dir, 'dense_feature_bucket.pkl')
-        self.feature_size_file_path = os.path.join(self.data_dir, 'feature_size.pkl')
+        self.feature_map_file_path = os.path.join(self.feature_map_file_dir,'feature_map.pkl')
+        self.sparse_feature_bucket_file_path = os.path.join(self.bucket_file_dir,'sparse_feature_bucket.pkl')
+        self.dense_feature_bucket_file_path = os.path.join(self.bucket_file_dir,'dense_feature_bucket.pkl')
+        self.feature_size_file_path = os.path.join(self.data_dir,'feature_size.pkl')
         self.processed_full_train_data_file_path = os.path.join(self.processed_data_dir,
                                                                 'processed_train_data_save_path.pkl')
         self.processed_full_test_data_file_path = os.path.join(self.processed_data_dir,
                                                                'processed_test_data_save_path.pkl')
-
     def load_raw_data(self):
         print('load raw data start')
         raw_data = pd.read_csv(os.path.join(self.data_dir, 'train.txt'), sep='\t', names=feat_names)
