@@ -72,7 +72,7 @@ If you have any questions for our paper or codes, please send an email to yrunl@
 
 
 
-## Acknowledgement 
+## Acknowledgment 
 Our code is developed based on [GitHub - shenweichen/DeepCTR-Torch: 【PyTorch】Easy-to-use,Modular and Extendible package of deep-learning based CTR models.](https://github.com/shenweichen/DeepCTR-Torch)
 
 
