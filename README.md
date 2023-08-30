@@ -35,7 +35,7 @@ huawei
 
 We use three public real-world datasets (Avazu, Criteo, Huawei) in our experiments. You can download the datasets from the links below.
 
-- **Criteo**: The raw dataset can be downloaded from https://www.kaggle.com/c/criteo-display-ad-challenge/data. If you want to know how to preprocess the data, please refer to `./data/criteoPreprocess.py`
+- **Criteo**: The raw dataset can be downloaded from https://www.kaggle.com/c/criteo-display-ad-challenge/data or https://www.kaggle.com/datasets/mrkmakr/criteo-dataset?resource=download. If you want to know how to preprocess the data, please refer to `./data/criteoPreprocess.py`
 - **Avazu**: The raw dataset can be downloaded from https://www.kaggle.com/c/avazu-ctr-prediction/data. If you want to know how to preprocess the data, please refer to `./data/avazuPreprocess.py`
 - **Huawei**: The raw dataset can be downloaded from https://www.kaggle.com/louischen7/2020-digix-advertisement-ctr-prediction . If you want to know how to preprocess the data, please refer to `./data/huaweiPreprocess.py`
 
