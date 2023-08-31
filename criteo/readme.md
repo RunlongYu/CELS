@@ -1,3 +1,3 @@
-## We provide a sample file for the criteo dataset, which contains the first 10,000 rows of data for the complete criteo dataset. 
-## You can also download the full criteo dataset to run our model!
+### We offer a sample file from the Criteo dataset, encompassing the initial 10,000 rows.
 
+### For a comprehensive analysis, you can download the complete Criteo dataset to run our model!
