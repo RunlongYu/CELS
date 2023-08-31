@@ -1,5 +1,6 @@
 # CELS
-This repository is the official implementation for the KDD 2023 Paper "[Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction](https://doi.org/10.1145/3580305.3599277 )"
+This repository is the official implementation for the KDD 2023 Paper "[Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction](https://doi.org/10.1145/3580305.3599277 )" 
+[Promotional Video](https://youtu.be/p3kE54lIWRw)
 
 
 
