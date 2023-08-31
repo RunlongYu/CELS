@@ -6,16 +6,16 @@ For a deeper understanding, kindly check out the [Promotional Video](https://you
 
 
 ## Requirements
-* Install Python, Pytorch(>=1.8). We use Python 3.8, Pytorch 1.13.0.
-* If you plan to use GPU computation, install CUDA.
+* Ensure you have Python and Pytorch (version 1.8 or higher) installed. Our setup utilized Python 3.8 and Pytorch 1.13.0.
+* Should you wish to leverage GPU processing, please install CUDA.
 
 
 
 ## Before Start
 
-Before you run the preprocess, plese run the `./data/mkdir.sh`
+Before proceeding with the preprocessing, ensure you run the `./data/mkdir.sh`
 
-Then you will get the following three folder structures in the same level directory of the project:
+Upon completion, you'll observe the following three directory structures created at the same level as the project:
 
 ```
 criteo
@@ -34,7 +34,7 @@ huawei
 
 ## Dataset
 
-We use three public real-world datasets (Avazu, Criteo, Huawei) in our experiments. You can download the datasets from the links below.
+We conducted our experiments using three publicly available real-world datasets: Avazu, Criteo, and Huawei. You can access and download these datasets from the links provided below.
 
 - **Criteo**: The raw dataset can be downloaded from https://www.kaggle.com/c/criteo-display-ad-challenge/data or https://www.kaggle.com/datasets/mrkmakr/criteo-dataset?resource=download. If you want to know how to preprocess the data, please refer to `./data/criteoPreprocess.py`
 - **Avazu**: The raw dataset can be downloaded from https://www.kaggle.com/c/avazu-ctr-prediction/data. If you want to know how to preprocess the data, please refer to `./data/avazuPreprocess.py`
@@ -44,7 +44,8 @@ We use three public real-world datasets (Avazu, Criteo, Huawei) in our experimen
 
 
 ## Example
-If you have downloaded the source code, you can train CELS model.
+If you've acquired the source code, you can train the CELS model.
+
 ```
 $ cd main
 $ python train.py --dataset=[dataset] --strategy=[strategy]  --gpu==[gpu_id] 
@@ -58,7 +59,7 @@ You can change the model parameters in `./config/configs.py`
 
 ## Visualization of Evolution Path
 
-You can visualize the evolution path traced by ***gene maps*** of the model.
+You can visualize the evolutionary path depicted by the model's ***gene maps***.
 
 ```
 $ cd main
@@ -74,7 +75,7 @@ Should you have any questions regarding our paper or codes, please don't hesitat
 
 
 ## Acknowledgment 
-Our code is developed based on [GitHub - shenweichen/DeepCTR-Torch: 【PyTorch】Easy-to-use,Modular and Extendible package of deep-learning based CTR models.](https://github.com/shenweichen/DeepCTR-Torch)
+Our code is developed based on [GitHub - shenweichen/DeepCTR-Torch: 【PyTorch】Easy-to-use,Modular and Extendible package of deep-learning based CTR models](https://github.com/shenweichen/DeepCTR-Torch).
 
 
 
