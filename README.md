@@ -1,5 +1,5 @@
 # CELS
-This repository is the official implementation for KDD 2023 Paper "Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction" https://doi.org/10.1145/3580305.3599277 
+This repository is the official implementation for the KDD 2023 Paper "[Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction](https://doi.org/10.1145/3580305.3599277 )"
 
 
 
@@ -43,13 +43,13 @@ We use three public real-world datasets (Avazu, Criteo, Huawei) in our experimen
 
 
 ## Example
-If you have downloaded the source codes, you can train CELS model.
+If you have downloaded the source code, you can train CELS model.
 ```
 $ cd main
 $ python train.py --dataset=[dataset] --strategy=[strategy]  --gpu==[gpu_id] 
 ```
 
-The options for command parameter "strategy" are ['1,1',  '1+1',  'n,1',  'n+1'].
+The options for the command parameter "strategy" are ['1,1',  '1+1',  'n,1',  'n+1'].
 
 You can change the model parameters in `./config/configs.py`
 
@@ -57,7 +57,7 @@ You can change the model parameters in `./config/configs.py`
 
 ## Visualization of Evolution Path
 
-You can get the visualization of the evolution path traced by ***gene maps*** of the model.
+You can visualize the evolution path traced by ***gene maps*** of the model.
 
 ```
 $ cd main
@@ -68,7 +68,7 @@ $ python plotUtils.py --dataset_strategy=[dataset_strategy]  --datetime=[datetim
 
 ## Contact
 
-If you have any questions for our paper or codes, please send an email to yrunl@mail.ustc.edu.cn or demon@mail.ustc.edu.cn.
+Should you have any questions regarding our paper or codes, please don't hesitate to reach out via email at yrunl@mail.ustc.edu.cn or demon@mail.ustc.edu.cn.
 
 
 
