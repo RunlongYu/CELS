@@ -1,4 +1,7 @@
 # CELS
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cognitive-evolutionary-search-to-select/click-through-rate-prediction-on-criteo)](https://paperswithcode.com/sota/click-through-rate-prediction-on-criteo?p=cognitive-evolutionary-search-to-select)
+
 This repository serves as the official implementation for the KDD 2023 Paper titled,  "[Cognitive Evolutionary Search to Select Feature Interactions for Click-Through Rate Prediction](https://doi.org/10.1145/3580305.3599277 )".
 For a deeper understanding, kindly check out the [Promotional Video](https://youtu.be/p3kE54lIWRw), [Slides](https://www.researchgate.net/publication/373519329_Cognitive_Evolutionary_Search_to_Select_Feature_Interactions_for_Click-Through_Rate_Prediction ), [中文解读](https://mp.weixin.qq.com/s/IhcvJc8HQl_4srfz6jvsKQ).
 
