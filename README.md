@@ -9,7 +9,7 @@ For a deeper understanding, kindly check out the [Promotional Video](https://you
 
 
 ## Requirements
-* Ensure you have Python and Pytorch (version 1.8 or higher) installed. Our setup utilized Python 3.8 and Pytorch 1.13.0.
+* Ensure you have Python and PyTorch (version 1.8 or higher) installed. Our setup utilized Python 3.8 and PyTorch 1.13.0.
 * Should you wish to leverage GPU processing, please install CUDA.
 
 
