@@ -62,7 +62,7 @@ You can change the model parameters in `./config/configs.py`
 
 ## Visualization of Evolution Path
 
-You can visualize the evolutionary path depicted by ***gene maps*** of the model.
+You can visualize the evolution path depicted by ***gene maps*** of the model.
 
 ```
 $ cd main
