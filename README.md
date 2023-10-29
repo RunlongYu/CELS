@@ -51,7 +51,7 @@ If you've acquired the source code, you can train the CELS model.
 
 ```
 $ cd main
-$ python train.py --dataset=[dataset] --strategy=[strategy]  --gpu==[gpu_id] 
+$ python train.py --dataset=[dataset] --strategy=[strategy]  --gpu=[gpu_id] 
 ```
 
 The options for the command parameter "strategy" are ['1,1',  '1+1',  'n,1',  'n+1'].
