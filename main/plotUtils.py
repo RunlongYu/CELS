@@ -163,11 +163,11 @@ def fis_plot(dataset, feat_name, experiment_time):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Plot CELS example')
-    parser.add_argument('--dataset_model', type=str, default='criteo_1,1', help='use model', 
+    parser.add_argument('--dataset_strategy', type=str, default='criteo_1,1', help='use model',
                         choices=['criteo_1,1', 'criteo_1+1', 'criteo_1+n', 'criteo_n,1', 'criteo_n+1'])
     parser.add_argument('--datetime', type=str, help='datetime')
     args = parser.parse_args()
-    dataset = args.dataset_model
+    dataset = args.dataset_strategy
     if dataset == 'criteo_1,1' or dataset == 'criteo_1+1' or dataset == 'criteo_1+n' or dataset == 'criteo_n,1' or dataset == 'criteo_n+1':
         feat_name = criteo_feat_names
     else:
